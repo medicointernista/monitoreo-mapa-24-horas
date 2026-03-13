@@ -39,7 +39,7 @@ const CTASection = () => {
               </a>
 
               <a
-                href="tel:+573011505174"
+                href="tel:+573053979628"
                 className="inline-flex h-14 md:h-16 items-center justify-center gap-2 rounded-xl bg-[#E1F1F6] px-8 text-base font-bold text-[#1080A0] transition-all hover:bg-[#D4EAF1] hover:scale-[1.02] active:scale-95"
               >
                 <Phone className="h-4 w-4" />

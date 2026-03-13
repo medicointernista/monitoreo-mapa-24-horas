@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Facebook, Instagram, Youtube, MapPin, Phone, Mail, Clock, ChevronUp } from 'lucide-react';
+import { TikTok } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -40,14 +41,25 @@ const Footer = () => {
               >
                 <Instagram size={18} />
               </a>
-              <a 
-                href="https://www.youtube.com/@tuinternistafavorito" 
+              <a
+                href="https://www.youtube.com/@tuinternistafavorito"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-10 h-10 rounded-full border border-[#E2E8F0] text-[#1080A0] hover:bg-[#1080A0] hover:text-white transition-all"
                 aria-label="Youtube"
               >
                 <Youtube size={18} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@tuinternistafavorito"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full border border-[#E2E8F0] text-[#1080A0] hover:bg-[#1080A0] hover:text-white transition-all"
+                aria-label="TikTok"
+              >
+                <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 1 1-4.77-2.3A2.403 2.403 0 0 1 8.75 9.64V5.92a6.059 6.059 0 0 0-6.06 6.06 6.059 6.059 0 0 0 6.06 6.06 6.04 6.04 0 0 0 6.06-6.06V9.87a7.84 7.84 0 0 0 4.77 1.52v-3.66a4.85 4.85 0 0 1-.95-.08z"/>
+                </svg>
               </a>
             </div>
           </div>
@@ -77,11 +89,16 @@ const Footer = () => {
           <div className="bg-white p-8 rounded-[2rem] shadow-sm flex flex-col h-full border border-slate-50">
             <h3 className="text-xl font-bold text-[#0F172A] mb-6">Correo y horarios</h3>
             <div className="space-y-6">
-              <div className="flex items-center gap-4">
-                <Mail className="text-[#1080A0] shrink-0" size={20} />
-                <a href="mailto:tuinternistafavorito@gmail.com" className="text-[#64748B] text-[0.9375rem] hover:text-[#1080A0] transition-colors">
-                  tuinternistafavorito@gmail.com
-                </a>
+              <div className="flex flex-col gap-3">
+                <div className="flex gap-4">
+                  <Mail className="text-[#1080A0] shrink-0 mt-1" size={20} />
+                  <div className="text-[#64748B] text-[0.9375rem] space-y-2">
+                    <p><a href="mailto:consulta@internistamedellin.com" className="hover:text-[#1080A0] transition-colors">consulta@internistamedellin.com</a></p>
+                    <p><a href="mailto:asistente@internistamedellin.com" className="hover:text-[#1080A0] transition-colors">asistente@internistamedellin.com</a></p>
+                    <p><a href="mailto:estudios@internistamedellin.com" className="hover:text-[#1080A0] transition-colors">estudios@internistamedellin.com</a></p>
+                    <p><a href="mailto:procedimientos@internistamedellin.com" className="hover:text-[#1080A0] transition-colors">procedimientos@internistamedellin.com</a></p>
+                  </div>
+                </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -89,8 +106,7 @@ const Footer = () => {
                   <p className="text-[0.75rem] font-bold text-[#64748B] uppercase tracking-wider">HORARIO DE ATENCIÓN</p>
                 </div>
                 <div className="pl-9 text-[#64748B] text-[0.9375rem] space-y-2">
-                  <p>Lunes a viernes: 7:00 am - 12:00 pm</p>
-                  <p>Lunes a viernes: 1:30 pm - 5:00 pm</p>
+                  <p>Lunes a viernes: 8:00 am - 5:00 pm</p>
                 </div>
               </div>
             </div>
