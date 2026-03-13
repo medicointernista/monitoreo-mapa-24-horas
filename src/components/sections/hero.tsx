@@ -85,7 +85,7 @@ const HeroSection = () => {
                   width={700}
                   height={500}
                 className="h-[300px] w-full object-cover md:h-[500px]"
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/be400d55-9e25-4c3a-881c-b88ea44e4594/Monitoreo-MAPA-24-Horas-para-1769352958943.jpg?width=1920&height=1371&resize=contain"
+                src="/mapa24horas.jpg"
                 priority
               />
               {/* Doctor Overlay Badge */}
