@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Facebook, Instagram, Youtube, MapPin, Phone, Mail, Clock, ChevronUp } from 'lucide-react';
-import { TikTok } from 'lucide-react';
+import { BookText as TikTok } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
