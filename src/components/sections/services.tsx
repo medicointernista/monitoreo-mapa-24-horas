@@ -6,21 +6,21 @@ const services = [
     title: "Monitoreo MAPA 24 Horas",
     description: "Nuestro servicio estrella para un diagnóstico preciso de la presión arterial durante todo el día y la noche.",
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/c27c3349-49e9-4c2d-beb2-aa8ac8f366b4/Monitoreo-24-horas-1769434002547.webp?width=8000&height=8000&resize=contain",
-    alt: "Monitoreo ambulatorio de presión arterial (MAPA) de 24 horas en Medellín - Dr. Willmer Obregón",
+    alt: "Dispositivo de monitoreo ambulatorio de presión arterial MAPA 24 horas - diagnóstico de hipertensión en Medellín",
     link: "#inicio"
   },
   {
     title: "Consulta de Medicina Interna",
     description: "Enfoque integral y personalizado, con evaluación completa, diagnóstico y plan de seguimiento.",
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/c27c3349-49e9-4c2d-beb2-aa8ac8f366b4/Consulta-medicina-interna-1769434064560.webp?width=8000&height=8000&resize=contain",
-    alt: "Consulta de medicina interna en Medellín con el Dr. Willmer Obregón",
+    alt: "Consulta médica de especialista en medicina interna - evaluación integral de paciente en Medellín",
     link: "#inicio"
   },
     {
       title: "Control Cardiovascular",
       description: "Seguimiento especializado para pacientes con hipertensión, diabetes y riesgo cardiovascular.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/c27c3349-49e9-4c2d-beb2-aa8ac8f366b4/control-cardivascular-1769434094250.webp?width=8000&height=8000&resize=contain",
-      alt: "Equipamiento para monitoreo cardiovascular y control de hipertensión en Medellín",
+      alt: "Equipamiento y tecnología para monitoreo cardiovascular y control de hipertensión arterial",
       link: "#inicio"
     }
 ];

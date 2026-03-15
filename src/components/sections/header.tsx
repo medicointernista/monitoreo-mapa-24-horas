@@ -27,9 +27,9 @@ const Header = () => {
               className="inline-flex items-center gap-2 rounded-lg py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1080A0]"
               aria-label="Ir al inicio"
             >
-              <img 
+              <img
                 src={logoUrl}
-                alt="Logo del Dr. Willmer Obregón" 
+                alt="Logo profesional del Dr. Willmer Obregón - Especialista en Medicina Interna Medellín"
                 className="h-14 md:h-16 w-auto"
               />
             </a>

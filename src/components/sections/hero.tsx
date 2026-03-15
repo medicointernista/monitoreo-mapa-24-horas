@@ -81,7 +81,7 @@ const HeroSection = () => {
             
             <figure className="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_20px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] transition-transform duration-500 hover:scale-[1.01]">
                 <Image
-                  alt="Paciente en Medellín utilizando dispositivo de Monitoreo MAPA 24 Horas Dr. Willmer Obregón"
+                  alt="Paciente con dispositivo de monitoreo MAPA 24 horas portátil para medición de presión arterial - Dr. Willmer Obregón Medellín"
                   width={700}
                   height={500}
                 className="h-[300px] w-full object-cover md:h-[500px]"

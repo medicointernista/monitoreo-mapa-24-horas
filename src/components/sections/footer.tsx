@@ -120,9 +120,9 @@ const Footer = () => {
           </div>
 
           <div className="order-1 md:order-2">
-            <img 
-              src={logoUrl} 
-              alt="Logo Willmer Obregón M.D." 
+            <img
+              src={logoUrl}
+              alt="Logo profesional del Dr. Willmer Obregón - Monitoreo MAPA 24 Horas Medellín"
               className="h-10 md:h-12 w-auto"
             />
           </div>
