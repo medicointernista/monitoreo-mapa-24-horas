@@ -31,7 +31,7 @@ const CTASection = () => {
 
             <div className="flex flex-col sm:flex-row lg:flex-col gap-3 min-w-[260px]">
               <a
-                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%20Dr.%20Obreg%C3%B3n%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Monitoreo%20MAPA%2024%20Horas."
+                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="inline-flex h-14 md:h-16 items-center justify-center gap-2 rounded-xl bg-[#1080A0] px-8 text-base font-bold text-white shadow-[0_4px_14px_0_rgba(16,128,160,0.3)] transition-all hover:scale-[1.02] hover:bg-[#0D6E8A] active:scale-95"
               >
                 <MessageCircle className="h-5 w-5" />

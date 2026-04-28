@@ -37,7 +37,7 @@ const Header = () => {
             {/* CTA Button */}
             <div className="flex items-center gap-3">
               <a
-                href="https://api.whatsapp.com/send?phone=573011505174&text=Hola%20vi%20el%20sitio%20en%20Google%2C%20quiero%20informaci%C3%B3n%20de%20la%20consulta."
+                href="https://api.whatsapp.com/send?phone=573011505174&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="items-center justify-center gap-2 whitespace-nowrap rounded-lg text-[14px] md:text-[15px] font-bold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1080A0] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 inline-flex bg-[#1080A0] text-white shadow-lg shadow-[#1080A0]/20 hover:bg-[#0D6E8A] hover:scale-[1.02] active:scale-95 h-[44px] md:h-[48px] px-4 md:px-6"
               >
                 Agendar WhatsApp

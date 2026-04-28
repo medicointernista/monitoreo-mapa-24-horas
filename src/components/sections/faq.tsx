@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { ChevronDown, HelpCircle } from 'lucide-react';
+import { ChevronDown, Circle as HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
@@ -118,8 +118,8 @@ export default function FAQ() {
               <p className="text-[0.875rem] font-medium text-[#1E293B]">
                 ¿No encontraste lo que buscabas?
               </p>
-              <a 
-                href="https://api.whatsapp.com/send?phone=573009895852"
+              <a
+                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="mt-2 inline-block text-[0.875rem] font-bold text-[#1080A0] hover:underline"
               >
                 Pregúntanos por WhatsApp

@@ -43,7 +43,7 @@ const HeroSection = () => {
             {/* CTAs */}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%20Dr.%20Obreg%C3%B3n%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Monitoreo%20MAPA%2024%20Horas."
+                href="https://api.whatsapp.com/send?phone=573009895852&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-gradient-to-r from-[#1080A0] to-[#0D6E8A] px-10 py-4 text-base font-bold text-white shadow-[0_4px_14px_0_rgba(16,128,160,0.39)] transition-all hover:scale-[1.02] hover:opacity-95 active:scale-95"
               >
                 Agendar Monitoreo vía WhatsApp
