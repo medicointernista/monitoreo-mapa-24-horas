@@ -403,14 +403,7 @@ export default function HoverReceiver() {
   const [hoverBoxes, setHoverBoxes] = useState<Box[]>([]);
   const [focusBox, setFocusBox] = useState<Box>(null);
   const [focusedElementId, setFocusedElementId] = useState<string | null>(null);
-  const [isVisualEditMode, setIsVisualEditMode] = useState(() => {
-    // Initialize from localStorage if available
-    if (typeof window !== "undefined") {
-      const stored = localStorage.getItem(VISUAL_EDIT_MODE_KEY);
-      return stored === "true";
-    }
-    return false;
-  });
+  const [isVisualEditMode, setIsVisualEditMode] = useState(false);
   const [isResizing, setIsResizing] = useState(false);
   const [resizeHandle, setResizeHandle] = useState<string | null>(null);
   const [resizeStart, setResizeStart] = useState<{
@@ -460,9 +453,15 @@ export default function HoverReceiver() {
     }
   }, [isVisualEditMode]);
 
-  // On mount, notify parent if visual edit mode was restored from localStorage
+  // On mount, restore visual edit mode from localStorage and notify parent
   useEffect(() => {
-    if (isVisualEditMode) {
+    const stored = localStorage.getItem(VISUAL_EDIT_MODE_KEY);
+    const restored = stored === "true";
+    if (restored) {
+      setIsVisualEditMode(true);
+    }
+
+    if (restored) {
       // Send acknowledgement to parent that visual edit mode is active
       // This will sync the parent's state with our restored state
       window.parent.postMessage(
