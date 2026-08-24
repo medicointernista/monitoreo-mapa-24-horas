@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "🩺 Agenda tu monitoreo MAPA 24 horas con el Dr. Willmer Obregón. Diagnóstico preciso de presión arterial para tu salud cardiovascular. ¡Agenda hoy!",
   robots: "index, follow",
   icons: {
-    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/c27c3349-49e9-4c2d-beb2-aa8ac8f366b4/logotipo_1-1769434420361.ico",
+    icon: "/favicon.ico",
   },
 };
 
